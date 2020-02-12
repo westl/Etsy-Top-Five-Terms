@@ -1,0 +1,24 @@
+{
+  "name": "etsy-takehome",
+  "version": "1.0.0",
+  "description": "An app that calls Etsy's API and gets the top 5 terms used in stores",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "npm run build && env-cmd node dist/index.js",
+    "test": "jest"
+  },
+  "author": "lamar west",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "env-cmd": "^10.1.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.1.2",
+    "@types/node": "^13.7.0",
+    "jest": "^25.1.0",
+    "ts-jest": "^25.2.0",
+    "typescript": "^3.7.5"
+  }
+}
