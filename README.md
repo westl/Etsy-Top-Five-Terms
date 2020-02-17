@@ -1,5 +1,6 @@
 # Etsy-Top-Five-Terms
-Etsy app that finds the top 5 items for a given shop id. Concepts I could have gone deeper on will be found by searching for "TODO" within the project.
+Etsy app extracts and analyzes a shops inventory and returns the top 5 terms used. 
+Concepts I could have gone deeper on will be found by searching for "TODO" within the project.
 
 
 ## Exceptions 
